@@ -1,0 +1,30 @@
+{
+  "name": "noSQL-social-network",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon server.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winterkanda/noSQL-social-network.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/winterkanda/noSQL-social-network/issues"
+  },
+  "homepage": "https://github.com/winterkanda/noSQL-social-network#readme",
+  "dependencies": {
+    "dayjs": "^1.10.7",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
